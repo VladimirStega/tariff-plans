@@ -1,5 +1,5 @@
 <template>
   <div>
-    <Tariffs />
+    <TariffsMain />
   </div>
 </template>

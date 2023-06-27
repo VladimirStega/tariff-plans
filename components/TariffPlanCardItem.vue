@@ -1,24 +1,26 @@
+<script setup>
+  defineProps(['title', 'description', 'price', 'services'])
+</script>
+
 <template>
     <div class="container">
-      <div class="details">
+      <div class="details" >
           <h3 class="title">
-              <slot name="title"></slot>
+              <div>{{ title }}</div>
           </h3>
-          <p class="description">
-              <slot name="description"></slot>
-          </p>
-          <p class="price">
-              <slot name="price"></slot>
-          </p>
+          <div class="description">{{ description }}</div>
+          <div class="price">{{ price }}</div>
       </div>
       <div class="list-services">
         <div class="services">
-            1
+            {{ services }}
         </div>
       </div>
         <button class="btn-tariff-card">Выбрать этот тариф</button>
     </div>
 </template>
+
+
 
 <style scoped>
   .container{
