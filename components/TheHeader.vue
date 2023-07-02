@@ -24,11 +24,9 @@
         display: flex;
         place-items: center;
     }
-
     .icon-logo{
         margin: 1rem 1.2rem 1rem 0;
     }
-
     .logo {
         margin: 0;
         padding: 0;
@@ -36,7 +34,6 @@
         place-items: center;
         flex: 1;
     }
-
     .btn-login {
         cursor: pointer;
         border: none;

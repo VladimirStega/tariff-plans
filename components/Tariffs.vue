@@ -1,7 +1,3 @@
-<script setup>
-  import TariffPlanCardItem from './TariffPlanCardItem.vue'
-</script>
-
 <template>
     <header>
       <div class="container">
@@ -17,7 +13,7 @@
           <select v-model="selected">
           </select>
         </div>
-        <TariffPlanCardItem />
+        <TariffPlanCard />
       </div>
     </main>
 </template>
@@ -26,9 +22,7 @@
     .container {
         margin: 0 auto;
         max-width: 1600px;
-
     }
-
     .wrapper {
       display: flex;
       place-items: center;
